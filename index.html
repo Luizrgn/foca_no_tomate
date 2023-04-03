@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foca no Tomate</title>
+    
+	<!-- carrega arquivo CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="fundo">
+    <h1 class="titulo">Foca no Tomate</h1>
+    
+    <label id="label"></label>
+
+    <!-- seção do temporizador -->
+<div id="timer" class="timer">
+    <!-- minutos restantes -->
+    <div id="minutes" class="minutes">25</div>
+    <span>:</span> <!-- adiciona um elemento de span para separar os minutos dos segundos -->
+    <!-- segundos restantes -->
+    <div id="seconds" class="seconds">00</div>
+</div>
+
+	<!-- seção de controle do temporizador -->
+	<div class="controls">
+		<!-- botão iniciar -->
+		<button id="start" class="start" onclick="startTimer()">Start</button>
+		<!-- botão resetar -->
+		<button id="reset" class="reset" onclick="resetTimer()">Reset</button>
+	</div>
+
+    <div> <img class="tomate" src="tomate.jpg" alt="tomate-imagem"> </div>
+
+    <div>
+
+        <button class="cronometro" ></button>
+
+    </div>
+    
+    <label id="countdown-label"></label>
+
+
+	<!-- carrega arquivo JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foca no Tomate</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="fundo">
+    <h1 class="titulo">Foca no Tomate</h1>
+    <div class="conteudo">
+        
+        <img class="tomate" src="tomate.jpg" alt="tomate-imagem">
+        
+    </div>
+    
+    <div class="botoes">
+        
+        <button id="novaCor" onClick="cliqueBtn()" class="botao1">Pomodoro</button >
+            
+        <button class="botao1">Short-Break</button>
+    
+        <button class="botao1">Long-Break</button>
+        
+    </div>
+
+    <div class="botoes">
+        
+        <button onClick="startTimer" class="botaoiniciar">Start</button>
+        
+    </div>
+    
+    <div class="botoes">
+
+        <button class="cronometro" ></button>
+
+    </div>
+    
+    <div id="timer"> </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+-->
